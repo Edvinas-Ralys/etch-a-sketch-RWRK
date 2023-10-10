@@ -14,7 +14,7 @@ colorOption.appendChild(blue);
 
 for(let i = 1; i < 10; i++){
 const gridSizeBox = document.createElement(`div`);
-gridSizeBox.classList.add(`size${i}`);
+gridSizeBox.classList.add(`size`);
 gridSizeBox.innerHTML = `${i}0x${i}0`;
 gridSizeBox.addEventListener(`click`,  function (){drawGrid(i)});
 gridSizeOption.appendChild(gridSizeBox);

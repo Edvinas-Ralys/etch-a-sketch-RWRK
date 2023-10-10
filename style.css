@@ -1,7 +1,36 @@
-.size{
-    height: 45px;
-    width: 45px;
+.options{
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .gridSizeOption{
+        display: flex;
+        flex-wrap: wrap;
+        height: 250px;
+        width: 250px;
+        justify-content: space-around;
+    }
+    .size{
+        border: 2px solid black;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 1;
+        height: 40px;
+        width: 50px;
+        text-align: center;
+        
+
+    }
+
+
+
+
+
+
+.gameBoard{
+    display: flex;
+
 }
 .sketch{
     display: flex;
@@ -22,14 +51,15 @@
     margin: -1px;
 }
 
-.options{
-    border: 2px solid black;
-    width: 300px;
-    display: flex;
-}
+
+
+
+
+
 .colorBox{
     border: 1px solid black; 
     width: 150px;
+    height: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
