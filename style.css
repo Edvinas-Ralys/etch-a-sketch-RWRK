@@ -27,8 +27,21 @@
     width: 300px;
     display: flex;
 }
-.color, .gridSizeOption{
-    border: 2px solid black; 
+.colorBox{
+    border: 1px solid black; 
     width: 150px;
-    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
 }
+.color{
+    border: 1px solid black;
+    flex-grow: 1;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+};
